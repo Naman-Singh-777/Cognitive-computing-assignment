@@ -9,7 +9,7 @@ print(f"Our combined age is {my_age + friends_age}")
 # 2.2
 first_name = "John"
 last_name = "Doe"
-print(f"Hello, I'm {first_name + ' ' + last_name}")
+print(f"Hello, I'm {first_name + ' ' + last_name}.")
 
 # 2.3
 cats = 3
