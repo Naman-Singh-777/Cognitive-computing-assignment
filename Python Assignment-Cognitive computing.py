@@ -112,7 +112,7 @@ try:
 except:
     print("Oops, something went wrong!")
 finally:
-    print("But life goes on! ")
+    print("life goes on ")
 
 # 9.1
 from random import randint
@@ -128,7 +128,7 @@ print(f"My lucky number {lucky_number} is {'prime' if is_prime else 'not prime'}
 # 9.3
 from random import randint
 roll = randint(1, 6)
-print(f"🎲 You rolled a {roll}!")
+print(f" You rolled a {roll}!")
 
 # 9.4
 from random import shuffle
@@ -149,7 +149,7 @@ print(f"Your new password is: {password}")
 
 # 9.7
 from random import choice
-suits = ['♥', '♦', '♣', '♠']
+suits = ['Heart', 'Diamond', 'Club', 'Spades']
 cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 print(f"Your card is: {choice(cards)}{choice(suits)}")
 
