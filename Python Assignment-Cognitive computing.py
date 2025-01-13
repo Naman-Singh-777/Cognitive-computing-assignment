@@ -104,15 +104,15 @@ except ZeroDivisionError:
 try:
     age = int(input("How old are you? "))
 except ValueError:
-    print("That's not a real age! ")
+    print("That's not a real age. ")
 
 # 8.3
 try:
     print(1/0)
 except:
-    print("Oops, something went wrong!")
+    print("Something went wrong.")
 finally:
-    print("life goes on ")
+    print("But, life goes on. ")
 
 # 9.1
 from random import randint
@@ -128,7 +128,7 @@ print(f"My lucky number {lucky_number} is {'prime' if is_prime else 'not prime'}
 # 9.3
 from random import randint
 roll = randint(1, 6)
-print(f" You rolled a {roll}!")
+print(f" You rolled a {roll}.")
 
 # 9.4
 from random import shuffle
@@ -139,7 +139,7 @@ print(f"Today's shuffle: {playlist}")
 # 9.5
 from random import choice
 meals = ["Pizza", "Sushi", "Burger", "Salad"]
-print(f"Tonight's dinner will be {choice(meals)}!")
+print(f"Tonight's dinner will be {choice(meals)}.")
 
 # 9.6
 from random import choice
@@ -163,7 +163,7 @@ if len(sys.argv) > 2:
 import sys
 if len(sys.argv) > 1:
     message = sys.argv[1]
-    print(f"Your message is {len(message)} characters long")
+    print(f"Your message is {len(message)} characters long.")
 
 # 11.1
 from math import sqrt
