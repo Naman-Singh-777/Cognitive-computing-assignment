@@ -1,5 +1,5 @@
 # 1
-print("Life is beautiful, enjoy every moment!")
+print("Life is beautiful, enjoy every moment.")
 
 # 2.1
 my_age = 25
@@ -18,7 +18,7 @@ print(f"I have {cats} lovely cats")
 # 3.1
 temperature = 25
 if temperature > 0:
-    print("It's warm outside!")
+    print("It's warm outside.")
 elif temperature < 0:
     print("Brrr, it's freezing!")
 else:
@@ -26,7 +26,7 @@ else:
 
 # 3.2
 pizza_slices = 7
-print("I have " + ("an even" if pizza_slices % 2 == 0 else "an odd") + " number of pizza slices")
+print("I have " + ("an even" if pizza_slices % 2 == 0 else "an odd") + " number of pizza slices.")
 
 # 4.1
 print("Counting down to launch:")
