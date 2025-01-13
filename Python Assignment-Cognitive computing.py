@@ -13,16 +13,16 @@ print(f"Hello, I'm {first_name + ' ' + last_name}")
 
 # 2.3
 cats = 3
-print(f"I have {cats} lovely cats")
+print(f"I have {cats} lovely cats.")
 
 # 3.1
 temperature = 25
 if temperature > 0:
     print("It's warm outside.")
 elif temperature < 0:
-    print("Brrr, it's freezing!")
+    print("It's freezing.")
 else:
-    print("It's exactly freezing point")
+    print("It's exactly freezing point.")
 
 # 3.2
 pizza_slices = 7
@@ -32,7 +32,7 @@ print("I have " + ("an even" if pizza_slices % 2 == 0 else "an odd") + " number 
 print("Counting down to launch:")
 for seconds in range(1, 11):
     print(seconds)
-print("Blast off!")
+print("Blast off!!!")
 
 # 4.2
 energy = 1
@@ -42,7 +42,7 @@ while energy <= 10:
 
 # 4.3
 savings = sum(range(1, 101))
-print(f"If I save $1 more each day, I'll have ${savings} after 100 days")
+print(f"If I save $1 more each day, I'll have ${savings} after 100 days.")
 
 # 5.1
 friend_ages = [25, 30, 22, 28, 27]
