@@ -6,7 +6,7 @@ my_age = 25
 friends_age = 27
 print(f"Our combined age is {my_age + friends_age}")
 
-# 2.3
+# 2.2
 first_name = "John"
 last_name = "Doe"
 print(f"Hello, I'm {first_name + ' ' + last_name}.")
