@@ -1,5 +1,5 @@
 # 1
-print("Life is beautiful, enjoy every moment.")
+print("Life is beautiful.")
 
 # 2.1
 my_age = 25
@@ -32,7 +32,7 @@ print("I have " + ("an even" if pizza_slices % 2 == 0 else "an odd") + " number 
 print("Counting down to launch:")
 for seconds in range(1, 11):
     print(seconds)
-print("Blast off! 🚀")
+print("Blast off!")
 
 # 4.2
 energy = 1
@@ -98,13 +98,13 @@ try:
     friends = 0
     print(f"Each friend gets {cookies/friends} cookies")
 except ZeroDivisionError:
-    print("Oh no! I don't have any friends to share cookies with 😢")
+    print("No friends to share cookies with.")
 
 # 8.2
 try:
     age = int(input("How old are you? "))
 except ValueError:
-    print("That's not a real age! 😅")
+    print("That's not a real age! ")
 
 # 8.3
 try:
@@ -112,7 +112,7 @@ try:
 except:
     print("Oops, something went wrong!")
 finally:
-    print("But life goes on! 😊")
+    print("But life goes on! ")
 
 # 9.1
 from random import randint
@@ -139,7 +139,7 @@ print(f"Today's shuffle: {playlist}")
 # 9.5
 from random import choice
 meals = ["Pizza", "Sushi", "Burger", "Salad"]
-print(f"Tonight's dinner will be... {choice(meals)}!")
+print(f"Tonight's dinner will be {choice(meals)}!")
 
 # 9.6
 from random import choice
